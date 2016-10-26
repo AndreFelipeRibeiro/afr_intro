@@ -1,0 +1,37 @@
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+ /*atribute selector */
+
+/*a[target="_blank"] {
+  color: red;
+}*/
+
+.main-link {
+font-family: 'Plain-Regular', Helvetica, sans-serif;
+color: #000;
+/*color: #353535;*/
+letter-spacing: 0.75px;
+text-decoration: underline;
+opacity: 1;
+transition: all .3s ease-out;
+}
+.link-social {
+  text-decoration: none;
+}
+
+.link-cross {
+  text-decoration: line-through;
+}
+
+.main-link:hover,
+.main-link:focus {
+opacity: .4;
+}
+
+.link-header {
+  text-decoration: none;
+}

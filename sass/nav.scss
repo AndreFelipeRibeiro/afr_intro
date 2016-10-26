@@ -1,0 +1,71 @@
+/*
+  ========================================
+  Nav
+  ========================================
+*/
+
+.header {
+  margin-bottom: 5vh;
+  padding-top: 70px;
+  transition: #{$transition-01};
+
+    @media #{$view-medium} {
+      padding-top: 40px;
+    }
+  }
+
+.main-nav {
+  float: right;
+  margin-top: 0px;
+}
+
+.main-nav-link {
+  display: inline-block;
+  margin-right: 5vw;
+  transition: #{$transition-01};
+
+  @media #{$view-medium} {
+      margin-right: 10vw;
+    }
+  }
+
+  .main-link.is-on {
+    color:$light-grey-01;
+  }
+
+  .main-nav-link:last-of-type {
+    margin-right: 10px;
+  }
+
+  .link-header {
+    text-decoration: underline;
+    transition: all .3s ease-out;
+  }
+
+
+  /*
+    ========================================
+    Logo
+    ========================================
+  */
+
+.logo-link {
+  float: left;
+  width: 26px;
+  height: auto;
+  transition: #{$transition-01};
+  // padding: 10px;
+
+    &:hover {
+      transform: rotate(120deg);
+      transform-origin: 45% 64%;
+    }
+}
+
+.afrlogo {
+  fill: #000;
+  transition: #{$transition-01};
+}
+.logo-link.is-on .afrlogo {
+  fill: #f9f9f9;
+}

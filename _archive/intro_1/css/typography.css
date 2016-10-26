@@ -1,0 +1,127 @@
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+/*  -- Plain typeface --  */
+
+@font-face {
+  font-family: 'Plain-Thin';
+  src: url('../fonts/Plain/Plain-Thin.otf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain-Light';
+  src: url('../fonts/Plain/Plain-Light.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain-Regular';
+  src: url('../fonts/Plain/Plain-Regular.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain-Medium';
+  src: url('../fonts/Plain/Plain-Medium.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Plain-Bold';
+  src: url('../fonts/Plain/Plain-Bold.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Plain-Regular', Helvetica, sans-serif;
+  font-weight: 200;
+  /*font-family: 'MaisonNeue-Book', Helvetica, sans-serif;*/
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+}
+
+.body-text {
+  color: #000;
+  font-size: 68px;
+  line-height: 90px;
+  letter-spacing: -1px;
+}
+  @media all and (max-width: 800px) {
+    .body-text {
+      font-size: 30px;
+      line-height: 50px;
+      letter-spacing: 0px;
+    }
+  }
+
+ul {
+  font-size: 68px;
+  line-height: 110px;
+  letter-spacing: -1px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+  @media all and (max-width: 800px) {
+    ul {
+      font-size: 30px;
+      line-height: 60px;
+      letter-spacing: 0px;
+    }
+  }
+
+h2, h3, h4, h5, h6 {
+  margin-bottom: 1.7;
+}
+
+q {
+  font-style: italic;
+}
+
+strong {
+  color:#000;
+}
+
+/* text selection style */
+::selection{
+  /*background-color: #ececec;*/
+  background-color: #000;
+  color: #fff;
+}
+
+.intro-text {
+  margin-top: 7vmax;
+  margin-bottom: 7.5vmax;
+  font-family: 'Plain-Medium', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11.5em;
+  line-height: 0.95em;
+  letter-spacing: -3px;
+  transition: all .3s ease-out;
+}
+
+  @media all and (max-width: 800px) {
+    .intro-text{
+      font-family: 'Plain-Medium', Helvetica, sans-serif;
+      font-weight: 400;
+      letter-spacing: -2px;
+      font-size: 25vw;
+      margin-bottom: 12vmax;
+
+    }
+  }
+
+/* cross word */
+.p-cross {
+  text-decoration: line-through;
+}

@@ -1,0 +1,97 @@
+
+
+body {
+  background: #fff;
+  transition: background .3s ease-out;
+}
+
+/*
+  ========================================
+  Hero
+  ========================================
+*/
+
+.hero {
+  padding-bottom: 100px;
+  background-color: #f9f9f9;
+  transition: padding-bottom .3s ease-out;
+  transition: background-color .3s ease-out;
+} @media all and (max-width: 800px) {
+    .hero{
+      padding-bottom: 2vh;
+    }
+  }
+
+.hero.is-on {
+  background-color: #000;
+}
+
+
+/*
+  ========================================
+  Paragraphs
+  ========================================
+*/
+
+p {
+  margin-bottom: 30vh;
+} @media all and (max-width: 800px) {
+    p {
+      margin-bottom: 100px;
+    }
+  }
+
+  .p-first { /* first p of each section */
+    margin-top: 23vh;
+  } @media all and (max-width: 800px) {
+      .p-first {
+        margin-top: 100px;
+      }
+    }
+
+/*
+  ========================================
+  Divs / Containers
+  ========================================
+*/
+
+.container {
+  max-width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-half {
+  max-width: 590px;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.container-right {
+  margin-left: 50vw;
+  transition: all .3s ease-out;
+} @media all and (max-width: 800px) {
+    .container-right {
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+  }
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}

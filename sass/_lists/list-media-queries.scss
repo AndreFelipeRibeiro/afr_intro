@@ -1,0 +1,8 @@
+$break-small: 320px;
+$break-medium: 800px;
+$break-large: 1200px;
+$break-xlarge: 1600px;
+
+
+$view-medium: "all and (max-width:" $break-medium")";
+$view-xlarge: "all and (min-width:" $break-xlarge")";

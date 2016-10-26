@@ -1,0 +1,194 @@
+
+
+body {
+  background: #fff;
+  transition: background .3s ease-out;
+}
+
+.body-hide-scroll-x {
+  overflow-x: hidden;
+}
+
+.bg-color-page {
+  background: #fff;
+  transition: background .3s ease-out;
+}
+
+.bg-color-page.is-on {
+  background-color: #000;
+}
+
+/*
+  ========================================
+  Hero
+  ========================================
+*/
+
+.hero {
+  padding-bottom: 100px;
+  /*background-color: #f9f9f9;*/
+  background-color: rgb(247, 247, 247);
+  transition: padding-bottom .3s ease-out;
+  transition: background-color .3s ease-out;
+} @media all and (max-width: 800px) {
+    .hero{
+      padding-bottom: 2vh;
+    }
+  }
+
+.hero.is-on {
+  background-color: #000;
+}
+
+/*.hero-image {
+  background-position: right bottom;
+  height: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: auto 90%;
+  transition: all .3s ease-out;
+}*/
+
+/*
+  ========================================
+  Paragraphs
+  ========================================
+*/
+
+p {
+  margin-bottom: 30vh;
+} @media all and (max-width: 800px) {
+    p {
+      margin-bottom: 100px;
+    }
+  }
+
+  .p-first { /* first p of each section */
+    margin-top: 23vh;
+  } @media all and (max-width: 800px) {
+      .p-first {
+        margin-top: 100px;
+      }
+    }
+
+/*
+  ========================================
+  Divs / Containers
+  ========================================
+*/
+
+.container {
+  max-width: 84%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-half {
+  max-width: 730px;
+  margin-left: 8%;
+  margin-right: 10%;
+}
+
+.container-right {
+  margin-left: 50vw;
+  transition: all .3s ease-out;
+} @media all and (max-width: 800px) {
+    .container-right {
+      margin-left: 8%;
+      margin-right: 10%;
+    }
+  }
+
+  .container-2thirds {
+    margin-left: 25vw;
+    margin-right: 8%;
+    /*max-width: 1400px;*/
+    max-width: 1200px;
+    transition: all .3s ease-out;
+  } @media all and (max-width: 800px) {
+      .container-right {
+        margin-left: 8%;
+        margin-right: 8%;
+      }
+    }
+
+  .container-2thirds-left {
+    /*margin-right: 20vw;*/
+    margin-left: 8%;
+    max-width: 1600px;
+    transition: all .3s ease-out;
+
+  }
+
+  /*
+    ========================================
+    Full bleed images
+    ========================================
+  */
+
+  /*scalable bg color*/
+.full-bleed-image-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 180px;
+  min-height: 300px;
+  max-height: 850px;
+  height: 50vw;
+  overflow: hidden;
+  width: 100%;
+  transition: all .3s ease-out;
+} @media all and (max-width: 700px) {
+    .full-bleed-image-container {
+      margin-bottom: 100px;
+    }
+  }
+
+.bg-color-01 {
+  background-color: #f3e0dc;
+}
+
+.bg-color-02 {
+  background-color: red;
+}
+
+/*scalable image*/
+.full-bleed-image {
+  background-position: bottom;
+  height: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: auto 90%;
+  transition: all .3s ease-out;
+}
+
+.image-01 {
+  background-image: url("../images/Huge_06.jpg"); /* flower image */
+}
+
+.image-02 {
+  background-image: url("../images/Huge_03.jpg"); /* news */
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}

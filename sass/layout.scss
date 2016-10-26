@@ -1,0 +1,189 @@
+body {
+  background: $white;
+  transition: background .3s ease-out;
+}
+
+.body-hide-scroll-x {
+  overflow-x: hidden;
+}
+
+.bg-color-page {
+  background: $white;
+  transition: background .3s ease-out;
+}
+
+.bg-color-page.is-on {
+  background-color: $black;
+}
+
+/*
+  ========================================
+  Hero
+  ========================================
+*/
+
+.hero {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  background-color:$light-grey-01;
+  transition: padding-bottom .3s ease-out;
+  transition: background-color .3s ease-out;
+
+    @media #{$view-medium} {
+      padding-bottom: 2vh;
+    }
+  }
+
+.hero.is-on {
+  background-color: $black;
+}
+
+/*
+  ========================================
+  Paragraphs
+  ========================================
+*/
+
+p {
+  margin-bottom: 30vh;
+
+    @media #{$view-medium} {
+      margin-bottom: 130px;
+    }
+  }
+
+  .p-first { /* first p of each section */
+    margin-top: 23vh;
+
+      @media #{$view-medium} {
+        margin-top: 150px;
+      }
+    }
+
+/*
+  ========================================
+  Divs / Containers
+  ========================================
+*/
+
+.container {
+  max-width: 86%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-half {
+  max-width: 730px;
+  margin-left: 8%;
+  margin-right: 10%;
+}
+
+.container-half-brands {
+  max-width: 630px;
+  margin-bottom: 50vh;
+
+    @media #{$view-medium} {
+      margin-bottom: 130px;
+    }
+}
+
+.container-right {
+  margin-left: 50vw;
+  transition: #{$transition-01};
+  
+    @media #{$view-medium} {
+      margin-left: 8%;
+      margin-right: 10%;
+    }
+  }
+
+  .container-2thirds {
+    margin-left: 25vw;
+    margin-right: 8%;
+    max-width: 1200px;
+    transition: #{$transition-01};
+
+      @media #{$view-medium} {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 130px;
+      }
+    }
+
+  .container-2thirds-left {
+    /*margin-right: 20vw;*/
+    margin-left: 8%;
+    max-width: 1600px;
+    transition: #{$transition-01};
+
+  }
+
+  /*
+    ========================================
+    Full bleed images
+    ========================================
+  */
+
+  /*scalable bg color*/
+.full-bleed-image-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10vh;
+  margin-bottom: 30vh;
+  min-height: 700px;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  transition: #{$transition-01};
+
+    @media #{$view-medium} {
+      min-height: 450px;
+      margin-bottom: 150px;
+    }
+  }
+
+.bg-color-01 {
+  background-color: #F7F7F7;
+}
+
+/*scalable image*/
+
+.full-bleed-image {
+  background-position: bottom;
+  height: 100%;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: #{$transition-01};
+
+  }
+
+.image-01 {
+  background-image: url("../images/afr_squarespace_3.jpg"); /* flower image */
+}
+
+.image-02 {
+  background-image: url("../images/Huge_03.jpg"); /* news */
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}

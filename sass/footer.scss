@@ -1,0 +1,34 @@
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer{
+  margin-top: 23vh;
+  margin-bottom: 200px;
+  transition: #{$transition-01};
+
+  @media #{$view-medium} {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+}
+
+.hr-footer {
+  border-top: 1px solid $black;
+  opacity: 0.2;
+}
+
+.logo-footer {
+  font-size: 31px;
+  float: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+
+    @media #{$view-medium} {
+      margin-top: 70px;
+    }
+  }

@@ -1,0 +1,27 @@
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+.main-link {
+font-family: 'Plain-Regular', Helvetica, sans-serif;
+font-weight: 300;
+color: #000;
+letter-spacing: 0.75px;
+text-decoration: underline;
+opacity: 1;
+transition: all .3s ease-out;
+}
+.link-social {
+  text-decoration: underline;
+}
+
+.link-cross {
+  text-decoration: line-through;
+}
+
+.main-link:hover,
+.main-link:focus {
+opacity: .4;
+}
