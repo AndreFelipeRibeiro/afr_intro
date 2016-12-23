@@ -313,7 +313,9 @@ p {
   margin-right: 10px; }
 
 .link-header {
-  text-decoration: underline;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.7px;
   transition: all .3s ease-out; }
 
 /*
@@ -375,7 +377,6 @@ p {
   font-family: 'Plain-Regular', Helvetica, sans-serif;
   font-weight: 300;
   color: #000;
-  letter-spacing: 0.75px;
   opacity: 1;
   transition: all .3s ease-out; }
 
