@@ -45,7 +45,7 @@ body {
 */
 
 p {
-  margin-bottom: 30vh;
+  margin-bottom: 60vh;
 
     @media #{$view-medium} {
       margin-bottom: 130px;
@@ -53,7 +53,7 @@ p {
   }
 
   .p-first { /* first p of each section */
-    margin-top: 23vh;
+    margin-top: 50vh;
 
       @media #{$view-medium} {
         margin-top: 150px;
@@ -90,7 +90,7 @@ p {
 .container-right {
   margin-left: 50vw;
   transition: #{$transition-01};
-  
+
     @media #{$view-medium} {
       margin-left: 8%;
       margin-right: 10%;
@@ -98,9 +98,9 @@ p {
   }
 
   .container-2thirds {
-    margin-left: 25vw;
+    margin-left: 26vw;
     margin-right: 8%;
-    max-width: 1200px;
+    max-width: 910px;
     transition: #{$transition-01};
 
       @media #{$view-medium} {
@@ -129,9 +129,9 @@ p {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 10vh;
-  margin-bottom: 30vh;
+  margin-bottom: 50vh;
   min-height: 700px;
-  height: 100vh;
+  height: 120vh;
   overflow: hidden;
   width: 100%;
   transition: #{$transition-01};

@@ -13,8 +13,8 @@ body {
 
 .body-text {
   color: $black;
-  font-size: 68px;
-  line-height: 90px;
+  font-size: 60px;
+  line-height: 80px;
   letter-spacing: -1px;
   transition: #{$transition-01};
 
@@ -34,9 +34,10 @@ body {
 }
 
 .text-rotate-2 { //body
-  transform: rotate(-2deg);
-  font-size: 85px;
-  line-height: 105px;
+  transform: rotate(-3deg);
+  font-size: 70px;
+  line-height: 90px;
+  letter-spacing: -2px;
 
     @media #{$view-medium} {
       font-size: 34px;

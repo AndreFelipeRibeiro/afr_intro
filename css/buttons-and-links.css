@@ -9,10 +9,10 @@ Error: Undefined variable: "$black".
 9:   font-weight: 300;
 10:   color: $black;
 11:   opacity: 1;
-12:   transition: #{$transition-01};
-13: }
-14: .link-social {
-15:   // text-decoration: underline;
+12:   text-decoration: none;
+13:   transition: #{$transition-01};
+14: }
+15: .link-social {
 
 Backtrace:
 sass/buttons-and-links.scss:10
@@ -67,4 +67,4 @@ sass/buttons-and-links.scss:10
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 10 of sass/buttons-and-links.scss\A \A 5: */\A 6: \A 7: .main-link {\A 8:   font-family: 'Plain-Regular', Helvetica, sans-serif;\A 9:   font-weight: 300;\A 10:   color: $black;\A 11:   opacity: 1;\A 12:   transition: #{$transition-01};\A 13: }\A 14: .link-social {\A 15:   // text-decoration: underline;"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 10 of sass/buttons-and-links.scss\A \A 5: */\A 6: \A 7: .main-link {\A 8:   font-family: 'Plain-Regular', Helvetica, sans-serif;\A 9:   font-weight: 300;\A 10:   color: $black;\A 11:   opacity: 1;\A 12:   text-decoration: none;\A 13:   transition: #{$transition-01};\A 14: }\A 15: .link-social {"; }

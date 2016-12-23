@@ -43,8 +43,8 @@ body {
 
 .body-text {
   color: #000;
-  font-size: 68px;
-  line-height: 90px;
+  font-size: 60px;
+  line-height: 80px;
   letter-spacing: -1px;
   transition: all .3s ease-out; }
   @media all and (max-width: 800px) {
@@ -57,9 +57,10 @@ body {
   transform: rotate(-3deg); }
 
 .text-rotate-2 {
-  transform: rotate(-2deg);
-  font-size: 85px;
-  line-height: 105px; }
+  transform: rotate(-3deg);
+  font-size: 70px;
+  line-height: 90px;
+  letter-spacing: -2px; }
   @media all and (max-width: 800px) {
     .text-rotate-2 {
       font-size: 34px;
@@ -162,14 +163,14 @@ body {
   ========================================
 */
 p {
-  margin-bottom: 30vh; }
+  margin-bottom: 60vh; }
   @media all and (max-width: 800px) {
     p {
       margin-bottom: 130px; } }
 
 .p-first {
   /* first p of each section */
-  margin-top: 23vh; }
+  margin-top: 50vh; }
   @media all and (max-width: 800px) {
     .p-first {
       margin-top: 150px; } }
@@ -205,9 +206,9 @@ p {
       margin-right: 10%; } }
 
 .container-2thirds {
-  margin-left: 25vw;
+  margin-left: 26vw;
   margin-right: 8%;
-  max-width: 1200px;
+  max-width: 910px;
   transition: all .3s ease-out; }
   @media all and (max-width: 800px) {
     .container-2thirds {
@@ -231,9 +232,9 @@ p {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 10vh;
-  margin-bottom: 30vh;
+  margin-bottom: 50vh;
   min-height: 700px;
-  height: 100vh;
+  height: 120vh;
   overflow: hidden;
   width: 100%;
   transition: all .3s ease-out; }
@@ -313,9 +314,8 @@ p {
   margin-right: 10px; }
 
 .link-header {
-  text-decoration: none;
   font-size: 15px;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.3px;
   transition: all .3s ease-out; }
 
 /*
@@ -378,6 +378,7 @@ p {
   font-weight: 300;
   color: #000;
   opacity: 1;
+  text-decoration: none;
   transition: all .3s ease-out; }
 
 .link-cross {

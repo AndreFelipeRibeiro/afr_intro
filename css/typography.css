@@ -8,8 +8,8 @@ Error: Undefined variable: "$black".
 13: 
 14: .body-text {
 15:   color: $black;
-16:   font-size: 68px;
-17:   line-height: 90px;
+16:   font-size: 60px;
+17:   line-height: 80px;
 18:   letter-spacing: -1px;
 19:   transition: #{$transition-01};
 20: 
@@ -67,4 +67,4 @@ sass/typography.scss:15
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 15 of sass/typography.scss\A \A 10:   letter-spacing: 0.5px;\A 11:   line-height: 1.7;\A 12: }\A 13: \A 14: .body-text {\A 15:   color: $black;\A 16:   font-size: 68px;\A 17:   line-height: 90px;\A 18:   letter-spacing: -1px;\A 19:   transition: #{$transition-01};\A 20: "; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 15 of sass/typography.scss\A \A 10:   letter-spacing: 0.5px;\A 11:   line-height: 1.7;\A 12: }\A 13: \A 14: .body-text {\A 15:   color: $black;\A 16:   font-size: 60px;\A 17:   line-height: 80px;\A 18:   letter-spacing: -1px;\A 19:   transition: #{$transition-01};\A 20: "; }
