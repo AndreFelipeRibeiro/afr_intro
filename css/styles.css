@@ -215,6 +215,9 @@ p {
       margin-left: 8%;
       margin-right: 8%;
       margin-bottom: 130px; } }
+  @media all and (min-width: 1600px) {
+    .container-2thirds {
+      margin-left: 46vw; } }
 
 .container-2thirds-left {
   /*margin-right: 20vw;*/

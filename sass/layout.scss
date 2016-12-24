@@ -108,6 +108,10 @@ p {
         margin-right: 8%;
         margin-bottom: 130px;
       }
+
+      @media #{$view-xlarge}{
+        margin-left: 46vw;
+      }
     }
 
   .container-2thirds-left {
